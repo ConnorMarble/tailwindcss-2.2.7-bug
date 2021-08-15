@@ -1,8 +1,6 @@
 ## About
 
-Hulu 2.0 created with Nextjs and TailwindCss.
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Tailwind 2.2.7 has a bug where the group-hover class does not work. I have tested this by downgrading to Tailwind 2.1.1 and have no issues.
 
 ## Getting Started
 
@@ -17,3 +15,9 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Reproduce
+
+Simply try to hover over the icon on the page. The HomeIcon should bounce on hover.
+
+Try downgrading to v2.1.1 and it should work.
